@@ -27,7 +27,7 @@ public class MergeSort {
             temp[k++]=arr[j++];
 
         //copy to original array
-        for(k=0,i=0;k<temp.length;k++,i++)
+        for(k=0,i=si;k<temp.length;k++,i++)
             arr[i]=temp[k];
     }
 
