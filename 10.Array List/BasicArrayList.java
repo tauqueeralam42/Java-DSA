@@ -17,20 +17,20 @@ public class BasicArrayList {
         list.add(5);
         System.out.println(list);
 
-        swap(list, 2, 4);
-        System.out.println(list);
+        // swap(list, 2, 4);
+        // System.out.println(list);
 
         // System.out.println(list.get(3));
 
 
-        // list.remove(2);
-        // System.out.println(list);
+        list.remove(2);
+        System.out.println(list);
 
-        // list.set(2, 10);
-        // System.out.println(list);
+        list.set(2, 10);
+        System.out.println(list);
 
-        // list.add(1, 0);
-        // System.out.println(list);
+        list.add(1, 0);
+        System.out.println(list);
 
     }
 }
