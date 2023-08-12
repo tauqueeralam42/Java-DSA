@@ -37,7 +37,6 @@ public class WildcardMatching {
     public static void main(String[] args) {
         String s = "baaabab";
         String p = "*****ba*****ab";
-
         System.out.println(isMatch(s, p));
     }
 }
